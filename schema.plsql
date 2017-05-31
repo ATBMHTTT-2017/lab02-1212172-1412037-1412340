@@ -1,6 +1,7 @@
 
 --T?o b?ng
 CREATE TABLE NhanVien (
+  key VARCHAR2(2000),
   maNV VARCHAR2(10) NOT NULL PRIMARY KEY,
   hoTen NVARCHAR2(50) NOT NULL,
   diaChi NVARCHAR2(50) NOT NULL,
@@ -8,7 +9,8 @@ CREATE TABLE NhanVien (
   email VARCHAR2(50),
   maPhong VARCHAR2(10),
   chiNhanh VARCHAR2(10),
-  luong FLOAT
+  luong VARCHAR2(50)
+  
 );
 
 CREATE TABLE PhongBan (
